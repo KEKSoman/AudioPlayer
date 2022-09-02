@@ -8,22 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		3F0D2CF528C073DE006C3076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2CF428C073DE006C3076 /* AppDelegate.swift */; };
-		3F0D2CF728C073DE006C3076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2CF628C073DE006C3076 /* SceneDelegate.swift */; };
-		3F0D2CF928C073DE006C3076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2CF828C073DE006C3076 /* ViewController.swift */; };
+		3F0D2CF928C073DE006C3076 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2CF828C073DE006C3076 /* PlayerViewController.swift */; };
 		3F0D2CFC28C073DE006C3076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2CFA28C073DE006C3076 /* Main.storyboard */; };
 		3F0D2CFE28C073DF006C3076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2CFD28C073DF006C3076 /* Assets.xcassets */; };
 		3F0D2D0128C073DF006C3076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2CFF28C073DF006C3076 /* LaunchScreen.storyboard */; };
+		3F0D2D1528C0CE31006C3076 /* И дельфины - хладнокровие теплокровных.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0A28C0CE31006C3076 /* И дельфины - хладнокровие теплокровных.mp3 */; };
+		3F0D2D1628C0CE31006C3076 /* Ghost Dance - Last Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0B28C0CE31006C3076 /* Ghost Dance - Last Train.mp3 */; };
+		3F0D2D1728C0CE31006C3076 /* Cky - 96 Quite Bitter Beings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0C28C0CE31006C3076 /* Cky - 96 Quite Bitter Beings.mp3 */; };
+		3F0D2D1828C0CE31006C3076 /* Placebo - Pure Morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0D28C0CE31006C3076 /* Placebo - Pure Morning.mp3 */; };
+		3F0D2D1928C0CE31006C3076 /* Fools Garden-Lemon Tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0E28C0CE31006C3076 /* Fools Garden-Lemon Tree.mp3 */; };
+		3F0D2D1A28C0CE31006C3076 /* Ghost Dance - The Grip Of Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D0F28C0CE31006C3076 /* Ghost Dance - The Grip Of Love.mp3 */; };
+		3F0D2D1B28C0CE31006C3076 /* Silverchair - Pure Massacre .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D1028C0CE31006C3076 /* Silverchair - Pure Massacre .mp3 */; };
+		3F0D2D1C28C0CE31006C3076 /* City of the Lost - G2V .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D1128C0CE31006C3076 /* City of the Lost - G2V .mp3 */; };
+		3F0D2D1D28C0CE31006C3076 /* И дельфины - любовь реальна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D1228C0CE31006C3076 /* И дельфины - любовь реальна.mp3 */; };
+		3F0D2D1E28C0CE31006C3076 /* Travis - Side.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D1328C0CE31006C3076 /* Travis - Side.mp3 */; };
+		3F0D2D2228C0CEBB006C3076 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2028C0CEBB006C3076 /* PlaylistViewController.swift */; };
+		3F0D2D2328C0CEBB006C3076 /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2128C0CEBB006C3076 /* PlaylistViewController.xib */; };
+		3F0D2D2728C0CEFD006C3076 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2528C0CEFD006C3076 /* PlaylistCell.swift */; };
+		3F0D2D2828C0CEFD006C3076 /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2628C0CEFD006C3076 /* PlaylistCell.xib */; };
+		3F0D2D2D28C0E74B006C3076 /* TrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2C28C0E74B006C3076 /* TrackData.swift */; };
+		3F0D2D2F28C1A5FE006C3076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2D2E28C1A5FE006C3076 /* SceneDelegate.swift */; };
+		3FCEB9A628C1B9C700BE1F4A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEB9A528C1B9C700BE1F4A /* UIView.swift */; };
+		3FCEB9A828C1BA6C00BE1F4A /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEB9A728C1BA6C00BE1F4A /* UIColorExt.swift */; };
+		3FCEB9AB28C1C06200BE1F4A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEB9AA28C1C06100BE1F4A /* PlayerView.swift */; };
+		3FCEB9AE28C1C0D500BE1F4A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3FCEB9AD28C1C0D500BE1F4A /* SnapKit */; };
+		3FCEB9B128C1EF1500BE1F4A /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEB9B028C1EF1500BE1F4A /* CustomFonts.swift */; };
+		3FCEB9B528C1F02C00BE1F4A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEB9B228C1F02C00BE1F4A /* Montserrat-Medium.ttf */; };
+		3FCEB9B628C1F02C00BE1F4A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEB9B328C1F02C00BE1F4A /* Montserrat-Bold.ttf */; };
+		3FCEB9B728C1F02C00BE1F4A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEB9B428C1F02C00BE1F4A /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F0D2CF128C073DE006C3076 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0D2CF428C073DE006C3076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F0D2CF628C073DE006C3076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F0D2CF828C073DE006C3076 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0D2CF828C073DE006C3076 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		3F0D2CFB28C073DE006C3076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F0D2CFD28C073DF006C3076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0D2D0028C073DF006C3076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0D2D0228C073DF006C3076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D2D0A28C0CE31006C3076 /* И дельфины - хладнокровие теплокровных.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "И дельфины - хладнокровие теплокровных.mp3"; sourceTree = "<group>"; };
+		3F0D2D0B28C0CE31006C3076 /* Ghost Dance - Last Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ghost Dance - Last Train.mp3"; sourceTree = "<group>"; };
+		3F0D2D0C28C0CE31006C3076 /* Cky - 96 Quite Bitter Beings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cky - 96 Quite Bitter Beings.mp3"; sourceTree = "<group>"; };
+		3F0D2D0D28C0CE31006C3076 /* Placebo - Pure Morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Placebo - Pure Morning.mp3"; sourceTree = "<group>"; };
+		3F0D2D0E28C0CE31006C3076 /* Fools Garden-Lemon Tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fools Garden-Lemon Tree.mp3"; sourceTree = "<group>"; };
+		3F0D2D0F28C0CE31006C3076 /* Ghost Dance - The Grip Of Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ghost Dance - The Grip Of Love.mp3"; sourceTree = "<group>"; };
+		3F0D2D1028C0CE31006C3076 /* Silverchair - Pure Massacre .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Silverchair - Pure Massacre .mp3"; sourceTree = "<group>"; };
+		3F0D2D1128C0CE31006C3076 /* City of the Lost - G2V .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "City of the Lost - G2V .mp3"; sourceTree = "<group>"; };
+		3F0D2D1228C0CE31006C3076 /* И дельфины - любовь реальна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "И дельфины - любовь реальна.mp3"; sourceTree = "<group>"; };
+		3F0D2D1328C0CE31006C3076 /* Travis - Side.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Travis - Side.mp3"; sourceTree = "<group>"; };
+		3F0D2D2028C0CEBB006C3076 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		3F0D2D2128C0CEBB006C3076 /* PlaylistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistViewController.xib; sourceTree = "<group>"; };
+		3F0D2D2528C0CEFD006C3076 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		3F0D2D2628C0CEFD006C3076 /* PlaylistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = "<group>"; };
+		3F0D2D2C28C0E74B006C3076 /* TrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackData.swift; sourceTree = "<group>"; };
+		3F0D2D2E28C1A5FE006C3076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FCEB9A528C1B9C700BE1F4A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		3FCEB9A728C1BA6C00BE1F4A /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		3FCEB9AA28C1C06100BE1F4A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		3FCEB9B028C1EF1500BE1F4A /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		3FCEB9B228C1F02C00BE1F4A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3FCEB9B328C1F02C00BE1F4A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3FCEB9B428C1F02C00BE1F4A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCEB9AE28C1C0D500BE1F4A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +102,93 @@
 		3F0D2CF328C073DE006C3076 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3FCEB9A428C1B9B300BE1F4A /* Support */,
+				3FCEB9A328C1B95300BE1F4A /* PlayerViewController */,
+				3FCEB9A228C1B8B600BE1F4A /* Resources */,
+				3F0D2D1F28C0CEA3006C3076 /* PlaylistViewController */,
+				3F0D2D0828C0CD67006C3076 /* Tracks */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		3F0D2D0828C0CD67006C3076 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2D1228C0CE31006C3076 /* И дельфины - любовь реальна.mp3 */,
+				3F0D2D0A28C0CE31006C3076 /* И дельфины - хладнокровие теплокровных.mp3 */,
+				3F0D2D1128C0CE31006C3076 /* City of the Lost - G2V .mp3 */,
+				3F0D2D0C28C0CE31006C3076 /* Cky - 96 Quite Bitter Beings.mp3 */,
+				3F0D2D0E28C0CE31006C3076 /* Fools Garden-Lemon Tree.mp3 */,
+				3F0D2D0B28C0CE31006C3076 /* Ghost Dance - Last Train.mp3 */,
+				3F0D2D0F28C0CE31006C3076 /* Ghost Dance - The Grip Of Love.mp3 */,
+				3F0D2D0D28C0CE31006C3076 /* Placebo - Pure Morning.mp3 */,
+				3F0D2D1028C0CE31006C3076 /* Silverchair - Pure Massacre .mp3 */,
+				3F0D2D1328C0CE31006C3076 /* Travis - Side.mp3 */,
+				3F0D2D2C28C0E74B006C3076 /* TrackData.swift */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
+		3F0D2D1F28C0CEA3006C3076 /* PlaylistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2D2428C0CEE1006C3076 /* TableCell */,
+				3F0D2D2028C0CEBB006C3076 /* PlaylistViewController.swift */,
+				3F0D2D2128C0CEBB006C3076 /* PlaylistViewController.xib */,
+			);
+			path = PlaylistViewController;
+			sourceTree = "<group>";
+		};
+		3F0D2D2428C0CEE1006C3076 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2D2528C0CEFD006C3076 /* PlaylistCell.swift */,
+				3F0D2D2628C0CEFD006C3076 /* PlaylistCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		3FCEB9A228C1B8B600BE1F4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3F0D2CF428C073DE006C3076 /* AppDelegate.swift */,
-				3F0D2CF628C073DE006C3076 /* SceneDelegate.swift */,
-				3F0D2CF828C073DE006C3076 /* ViewController.swift */,
-				3F0D2CFA28C073DE006C3076 /* Main.storyboard */,
 				3F0D2CFD28C073DF006C3076 /* Assets.xcassets */,
 				3F0D2CFF28C073DF006C3076 /* LaunchScreen.storyboard */,
 				3F0D2D0228C073DF006C3076 /* Info.plist */,
+				3F0D2D2E28C1A5FE006C3076 /* SceneDelegate.swift */,
 			);
-			path = AudioPlayer;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FCEB9A328C1B95300BE1F4A /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2CF828C073DE006C3076 /* PlayerViewController.swift */,
+				3F0D2CFA28C073DE006C3076 /* Main.storyboard */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		3FCEB9A428C1B9B300BE1F4A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3FCEB9AF28C1EE7A00BE1F4A /* Fonts */,
+				3FCEB9A528C1B9C700BE1F4A /* UIView.swift */,
+				3FCEB9A728C1BA6C00BE1F4A /* UIColorExt.swift */,
+				3FCEB9AA28C1C06100BE1F4A /* PlayerView.swift */,
+				3FCEB9B028C1EF1500BE1F4A /* CustomFonts.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3FCEB9AF28C1EE7A00BE1F4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3FCEB9B328C1F02C00BE1F4A /* Montserrat-Bold.ttf */,
+				3FCEB9B228C1F02C00BE1F4A /* Montserrat-Medium.ttf */,
+				3FCEB9B428C1F02C00BE1F4A /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +207,9 @@
 			dependencies = (
 			);
 			name = AudioPlayer;
+			packageProductDependencies = (
+				3FCEB9AD28C1C0D500BE1F4A /* SnapKit */,
+			);
 			productName = AudioPlayer;
 			productReference = 3F0D2CF128C073DE006C3076 /* AudioPlayer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 3F0D2CE828C073DE006C3076;
+			packageReferences = (
+				3FCEB9AC28C1C0D500BE1F4A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3F0D2CF228C073DE006C3076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +255,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCEB9B728C1F02C00BE1F4A /* Montserrat-Regular.ttf in Resources */,
+				3F0D2D1B28C0CE31006C3076 /* Silverchair - Pure Massacre .mp3 in Resources */,
+				3F0D2D1828C0CE31006C3076 /* Placebo - Pure Morning.mp3 in Resources */,
+				3F0D2D2828C0CEFD006C3076 /* PlaylistCell.xib in Resources */,
 				3F0D2D0128C073DF006C3076 /* LaunchScreen.storyboard in Resources */,
 				3F0D2CFE28C073DF006C3076 /* Assets.xcassets in Resources */,
+				3F0D2D1628C0CE31006C3076 /* Ghost Dance - Last Train.mp3 in Resources */,
+				3F0D2D1C28C0CE31006C3076 /* City of the Lost - G2V .mp3 in Resources */,
+				3F0D2D1A28C0CE31006C3076 /* Ghost Dance - The Grip Of Love.mp3 in Resources */,
+				3F0D2D1728C0CE31006C3076 /* Cky - 96 Quite Bitter Beings.mp3 in Resources */,
+				3F0D2D2328C0CEBB006C3076 /* PlaylistViewController.xib in Resources */,
+				3FCEB9B628C1F02C00BE1F4A /* Montserrat-Bold.ttf in Resources */,
+				3F0D2D1928C0CE31006C3076 /* Fools Garden-Lemon Tree.mp3 in Resources */,
+				3F0D2D1D28C0CE31006C3076 /* И дельфины - любовь реальна.mp3 in Resources */,
 				3F0D2CFC28C073DE006C3076 /* Main.storyboard in Resources */,
+				3F0D2D1E28C0CE31006C3076 /* Travis - Side.mp3 in Resources */,
+				3FCEB9B528C1F02C00BE1F4A /* Montserrat-Medium.ttf in Resources */,
+				3F0D2D1528C0CE31006C3076 /* И дельфины - хладнокровие теплокровных.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0D2CF928C073DE006C3076 /* ViewController.swift in Sources */,
+				3FCEB9AB28C1C06200BE1F4A /* PlayerView.swift in Sources */,
+				3F0D2D2D28C0E74B006C3076 /* TrackData.swift in Sources */,
+				3F0D2CF928C073DE006C3076 /* PlayerViewController.swift in Sources */,
+				3FCEB9A828C1BA6C00BE1F4A /* UIColorExt.swift in Sources */,
 				3F0D2CF528C073DE006C3076 /* AppDelegate.swift in Sources */,
-				3F0D2CF728C073DE006C3076 /* SceneDelegate.swift in Sources */,
+				3F0D2D2228C0CEBB006C3076 /* PlaylistViewController.swift in Sources */,
+				3FCEB9A628C1B9C700BE1F4A /* UIView.swift in Sources */,
+				3FCEB9B128C1EF1500BE1F4A /* CustomFonts.swift in Sources */,
+				3F0D2D2728C0CEFD006C3076 /* PlaylistCell.swift in Sources */,
+				3F0D2D2F28C1A5FE006C3076 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +441,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9K2X24D7W7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_FILE = AudioPlayer/Resources/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +472,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9K2X24D7W7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_FILE = AudioPlayer/Resources/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +516,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FCEB9AC28C1C0D500BE1F4A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FCEB9AD28C1C0D500BE1F4A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FCEB9AC28C1C0D500BE1F4A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F0D2CE928C073DE006C3076 /* Project object */;
 }
